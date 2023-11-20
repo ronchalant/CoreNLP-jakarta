@@ -11,7 +11,7 @@ import edu.stanford.nlp.trees.GrammaticalRelation;
 import edu.stanford.nlp.util.ArrayCoreMap;
 import edu.stanford.nlp.util.CoreMap;
 
-import javax.json.*;
+import jakarta.json.*;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Collections;

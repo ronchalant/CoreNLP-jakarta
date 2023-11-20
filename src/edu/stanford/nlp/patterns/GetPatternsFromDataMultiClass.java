@@ -15,7 +15,7 @@ import java.util.function.Function;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import javax.json.*;
+import jakarta.json.*;
 
 import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.io.RegExFileFilter;

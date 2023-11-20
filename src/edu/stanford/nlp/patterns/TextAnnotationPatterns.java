@@ -11,7 +11,7 @@ import edu.stanford.nlp.util.TypesafeMap;
 import edu.stanford.nlp.patterns.surface.*;
 import edu.stanford.nlp.util.logging.Redwood;
 
-import javax.json.*;
+import jakarta.json.*;
 
 import java.io.File;
 import java.io.IOException;

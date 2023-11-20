@@ -5,8 +5,8 @@ import java.io.*;
 import java.util.*;
 import java.util.zip.*;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 
 import edu.stanford.nlp.io.IOUtils;
 import org.apache.commons.lang3.StringEscapeUtils;

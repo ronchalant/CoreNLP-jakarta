@@ -4,14 +4,14 @@ import edu.stanford.nlp.io.IOUtils;
 import edu.stanford.nlp.patterns.TextAnnotationPatterns;
 import edu.stanford.nlp.util.StringUtils;
 
-import javax.json.Json;
-import javax.json.JsonObject;
-import javax.json.JsonReader;
-import javax.json.stream.JsonParser;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.json.Json;
+import jakarta.json.JsonObject;
+import jakarta.json.JsonReader;
+import jakarta.json.stream.JsonParser;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -34,7 +34,7 @@ public class SPIEDServlet extends HttpServlet {
   /**
    * Set the properties to the paths they appear at on the servlet.
    * See build.xml for where these paths get copied.
-   * @throws javax.servlet.ServletException Thrown by the implementation
+   * @throws jakarta.servlet.ServletException Thrown by the implementation
    */
   public void init()  throws ServletException {
     testPropertiesFile = getServletContext().getRealPath("/WEB-INF/data/test.properties");

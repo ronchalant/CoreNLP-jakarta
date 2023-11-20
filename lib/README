@@ -338,7 +338,7 @@ LAST UPDATE: 2020-11-04
 LAST UPDATE BY: John Bauer
 
 -----------------------------------------------------------------
-javax.servlet.jar
+jakarta.servlet.jar
 ORIGINAL JAR NAME: servlet-api.jar
 VERSION: 3.0
 RELEASE DATE: ?
@@ -365,8 +365,8 @@ LAST UPDATE: 2022-11-03
 LAST UPDATE BY: John Bauer
 
 ----------------------------------------------------------------
-javax.json.jar
-ORIGINAL JAR NAME:javax.json-1.0.4.jar
+jakarta.json.jar
+ORIGINAL JAR NAME:jakarta.json-1.0.4.jar
 VERSION:1.0.4
 RELEASE DATE:? (sometime in 2013, most probably March)
 SOURCE AVAILABLE:Yes

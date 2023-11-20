@@ -13,9 +13,9 @@ License: Apache v2.0
 
 -----------------------------------------------------------------
 
-javax.json.jar
+jakarta.json.jar
 
-URL: http://central.maven.org/maven2/javax/json/javax.json-api/1.0/javax.json-api-1.0.pom
+URL: http://central.maven.org/maven2/jakarta.json/jakarta.json-api/1.0/jakarta.json-api-1.0.pom
      https://json-processing-spec.java.net/
 
 License: GNU GPLv2 with Classpath Exception (or CDDL)

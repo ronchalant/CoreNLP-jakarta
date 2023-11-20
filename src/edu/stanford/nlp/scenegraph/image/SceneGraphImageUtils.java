@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import javax.json.Json;
-import javax.json.JsonArray;
-import javax.json.JsonArrayBuilder;
-import javax.json.JsonObject;
-import javax.json.JsonString;
+import jakarta.json.Json;
+import jakarta.json.JsonArray;
+import jakarta.json.JsonArrayBuilder;
+import jakarta.json.JsonObject;
+import jakarta.json.JsonString;
 
 import edu.stanford.nlp.international.Language;
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -177,7 +177,7 @@ public class SceneGraphImageUtils {
   }
 
   /**
-   * A utility method for javax json: extract a list of strings from the object
+   * A utility method for jakarta.json: extract a list of strings from the object
    */
   public static List<String> getJsonStringList(JsonObject obj, String name) {
     JsonArray strArray = obj.getJsonArray(name);

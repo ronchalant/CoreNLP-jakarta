@@ -6,7 +6,7 @@ import edu.stanford.nlp.util.Pair;
 import edu.stanford.nlp.util.TypesafeMap;
 
 
-import javax.json.*;
+import jakarta.json.*;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.net.ServerSocket;
